@@ -1,8 +1,0 @@
-
-
-S1:eureka.instance.perferIpAddress=false 注册内容依旧是hostname
-S2:
-ureka.instance.preferIpAddress=true
-eureka.instance.instance-id=${spring.cloud.client.ipAddress}:${server.port}
-
-S3:
